@@ -2,7 +2,7 @@
 
 namespace PaymentLib
 {
-    public class BasicPayment
+    public class Payment
     {
         protected bool _credit;
         protected DateTime _date;
@@ -14,7 +14,7 @@ namespace PaymentLib
         /// </summary>
         /// <param name="date">DateTime object representing payment date</param>
         /// <param name="name">string representation of the payment name</param>
-        public BasicPayment(bool credit, DateTime date, string name, decimal value)
+        public Payment(bool credit, DateTime date, string name, decimal value)
         {
             this._credit = credit;
             this._date = date;

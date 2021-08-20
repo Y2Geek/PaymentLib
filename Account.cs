@@ -3,26 +3,26 @@ using System.Collections.Generic;
 
 namespace PaymentLib
 {
-    public class BasicAccount
+    public class Account
     {
         protected string _name;
-        protected List<BasicPayment> _payments;
+        protected List<Payment> _payments;
 
         /// <summary>
         /// Constructor to create an account with a name and an empty payment list
         /// </summary>
         /// <param name="name">Name for the account</param>
-        public BasicAccount(string name)
+        public Account(string name)
         {
             this._name = name;
-            this._payments = new List<BasicPayment>();
+            this._payments = new List<Payment>();
         }
         /// <summary>
         /// Constructor to create an account with given name and payments list
         /// </summary>
         /// <param name="name"></param>
         /// <param name="payments"></param>
-        public BasicAccount(string name, List<BasicPayment> payments)
+        public Account(string name, List<Payment> payments)
         {
             this._name = name;
             this._payments = payments;
@@ -47,7 +47,7 @@ namespace PaymentLib
         /// Property to get and set the payments attribute
         /// </summary>
         /// <value>List<BasicPayment> representing the payments for the account</value>
-        public List<BasicPayment> Payments
+        public List<Payment> Payments
         {
             get
             {
@@ -63,7 +63,7 @@ namespace PaymentLib
         /// Adds given payment to the payments list of account
         /// </summary>
         /// <param name="pay">Payment object to add</param>
-        public void AddPayment(BasicPayment pay)
+        public void AddPayment(Payment pay)
         {
             this._payments.Add(pay);
         }
@@ -75,7 +75,7 @@ namespace PaymentLib
 
             if(_payments.Count != 0)
             {
-                foreach(BasicPayment bp in this._payments)
+                foreach(Payment bp in this._payments)
                 {
                     if(bp.Credit == true)
                     {
