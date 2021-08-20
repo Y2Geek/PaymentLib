@@ -1,0 +1,12 @@
+/home/paul/Ext/Google/Software/Personal/src/PaymentLib/bin/Debug/net5.0/PaymentLib.deps.json
+/home/paul/Ext/Google/Software/Personal/src/PaymentLib/bin/Debug/net5.0/PaymentLib.dll
+/home/paul/Ext/Google/Software/Personal/src/PaymentLib/bin/Debug/net5.0/ref/PaymentLib.dll
+/home/paul/Ext/Google/Software/Personal/src/PaymentLib/bin/Debug/net5.0/PaymentLib.pdb
+/home/paul/Ext/Google/Software/Personal/src/PaymentLib/obj/Debug/net5.0/PaymentLib.csproj.AssemblyReference.cache
+/home/paul/Ext/Google/Software/Personal/src/PaymentLib/obj/Debug/net5.0/PaymentLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/paul/Ext/Google/Software/Personal/src/PaymentLib/obj/Debug/net5.0/PaymentLib.AssemblyInfoInputs.cache
+/home/paul/Ext/Google/Software/Personal/src/PaymentLib/obj/Debug/net5.0/PaymentLib.AssemblyInfo.cs
+/home/paul/Ext/Google/Software/Personal/src/PaymentLib/obj/Debug/net5.0/PaymentLib.csproj.CoreCompileInputs.cache
+/home/paul/Ext/Google/Software/Personal/src/PaymentLib/obj/Debug/net5.0/PaymentLib.dll
+/home/paul/Ext/Google/Software/Personal/src/PaymentLib/obj/Debug/net5.0/ref/PaymentLib.dll
+/home/paul/Ext/Google/Software/Personal/src/PaymentLib/obj/Debug/net5.0/PaymentLib.pdb
